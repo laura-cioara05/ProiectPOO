@@ -1,0 +1,7 @@
+namespace  PROIECT_POO.Domain.Utilizatori;
+
+class Client:Utilizator
+{
+    public Client(Guid id, string username,string password)
+        : base(id, username, password) { }
+}
